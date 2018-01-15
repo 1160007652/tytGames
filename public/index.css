@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(230, 195, 195);
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+}
+section{
+    height: 560px;
+    display: flex;
+    justify-content: center;
+}
+#tyt-photo{
+    width: 70%;
+    background: blue;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    background: bisque;
+}
+#tyt-photo>img{
+    width: 270px;
+    height: 480px;
+    display: block;
+    margin:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+#tyt-btn{
+    width: 30%;
+    background: bisque;
+    border-left: 1px solid white;
+    position: relative;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(230, 195, 195);
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+}
+#send{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid blue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right: auto;
+    bottom: 100px;
+    cursor: pointer;
+}
+#send:hover{
+    background-color: aliceblue;
+}
